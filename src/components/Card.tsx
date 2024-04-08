@@ -1,4 +1,4 @@
-import blanquet from '../assets/blanquet_ferit.jpg'
+
 
 interface Props{
     foto: string
