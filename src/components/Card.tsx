@@ -8,7 +8,7 @@ interface Props{
 
 const Card = ({foto, nom, descripcio}:Props) => {
     return (
-        <div className="bg-purple-500 p-4 rounded-lg sm:w-full md:w-1/6 mt-4">
+        <div className="bg-purple-500 p-4 rounded-lg sm:w-full md:w-3/6 md:items-center mt-4">
             <img src={foto} alt="Imagen" className="w-full object-cover" />
             <div className="bg-white p-2 mt-4 rounded-lg">
                 <div>

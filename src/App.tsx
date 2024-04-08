@@ -4,7 +4,7 @@ import Main from "./components/Main"
 
 const App = () => {
   return (
-    <div>
+    <div className="container w-full h-full">
       <Header />
       <Main />
     </div>
