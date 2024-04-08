@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.lora{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.lobster {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+  
+.caveat{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ .indie-flower {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-bold{
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.alfa-slab {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+    "a a b"
+    "c c c"
+    "d e e"
+    "f f f"
+    "g g g";
+}
+
+
+.sections{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.section #a{
+  grid-area: a;
+}
+
+.section #b{
+  grid-area: b;
+}
+
+.section #c{
+  grid-area: c;
+}
+
+.section #d{
+  grid-area: d;
+}
+
+.section #e{
+  grid-area: e;
+}
+
+.section #f{
+  grid-area: f;
+}
