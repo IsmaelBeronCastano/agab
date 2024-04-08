@@ -42,13 +42,6 @@ const Main = () => {
         <p className="text-4xl text-center amatic-bold pt-4 pb-4">bizzum: <span className="lora text-4xl">689969006</span></p>
         <p className="text-4xl text-center amatic-bold">IBAN: <span className="lora text-4xl">ES29 0182 9746 7002 0008 3106</span> </p>
       </section>
-
-      <footer className="w-full flex flex-col sm:flex-col md:flex-row md:w-full items-center md:justify-around h-25 pt-2 bg-purple-800">
-        <p className="text-black font-bold text-2xl lobster pb-3 pl-2">Amics dels Gats i d'altres Animals de Balenyà</p>
-        <h1 className="text-white font-bold text-7xl alfa-slab pt-2">A.G.A.B.</h1>
-      </footer>
-
-
     </div>
   )
 }
